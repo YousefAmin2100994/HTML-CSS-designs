@@ -1,0 +1,182 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  display: flex;
+}
+
+/* End global rules */
+.menu {
+  width: 66px;
+  height: 100vh;
+  background-color: #111f2e;
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.menu a,
+.menu div {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+
+  margin: 10px;
+
+  text-decoration: none;
+  color: white;
+}
+
+.menu a i {
+  font-size: 25px;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+
+  border-radius: 50%;
+}
+
+.log-out {
+  width: 40px;
+  position: absolute;
+  bottom: 0;
+  background-color: red;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.menu:hover {
+  width: 180px;
+}
+
+.menu:hover > .log-out {
+  width: 130px;
+}
+.menu a:hover {
+  background-color: #56616c;
+  border: solid 1px #56616c;
+  border-radius: 10px;
+}
+
+.content {
+  width: 100%;
+}
+
+.content .header,
+.product {
+  background-color: #0074fd;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px;
+  margin: 10px;
+
+  border-radius: 10px;
+}
+
+.content .header p {
+  color: white;
+}
+
+.content .header i {
+  font-size: x-large;
+}
+
+.content .items {
+  padding: 10px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.content .items div {
+  background-color: #111f2e;
+  color: white;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "icon p1" "icon p2";
+
+  border-radius: 10px;
+}
+
+.content .items div i {
+  font-size: 40px;
+  grid-area: icon;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p1 {
+  font-weight: bold;
+
+  grid-area: p1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p2 {
+  font-weight: bold;
+
+  grid-area: p2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.elements {
+  padding: 10px;
+  margin: 10px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(auto-fill, auto);
+  gap: 10px;
+}
+
+.elements div {
+  background-color: #0f202e;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+
+  padding: 10px;
+
+  border-radius: 10px;
+}
+
+.elements .head {
+  background-color: #0074fc;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+
+  padding: 10px;
+
+  border-radius: 10px;
+
+  font-weight: bold;
+}
