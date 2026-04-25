@@ -136,12 +136,6 @@ If you'd like to improve any project:
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License**.
-
----
-
 ## 👨‍💻 Author
 
 **Yousef Mahmoud**
