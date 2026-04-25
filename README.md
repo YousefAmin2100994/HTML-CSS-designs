@@ -74,7 +74,7 @@ Each project includes its own:
 
 1. Clone the repository:
 
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+git clone [https://github.com/your-username/your-repo-name.git](https://github.com/YousefAmin2100994/HTML-CSS-designs)
 
 2. Open any project folder
 
